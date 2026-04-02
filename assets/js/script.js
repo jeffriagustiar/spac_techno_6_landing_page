@@ -150,6 +150,7 @@ class NewsCarousel {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
+    new NewsCarousel('activities-container', 'activities-dots');
     new NewsCarousel('leadership-container', 'leadership-dots');
     new NewsCarousel('committee-container', 'committee-dots');
 });
